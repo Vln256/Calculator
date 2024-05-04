@@ -1,0 +1,38 @@
+html,body{
+    width:100%;
+    height:100%
+}
+
+.button {
+    font-weight:bolder;
+    padding: 20px;
+    width: 60px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Adding transition for all properties */
+}
+
+
+.button:hover {
+    background-color: lightgray; /* Change color on hover */
+}
+
+.button:active {
+    transform: scale(0.95); /* Scale down when button is active (clicked) */
+}
+
+.row{
+    margin:8px 0;
+}
+
+.row input{
+    font-size:20px;
+    margin:0;
+    width:291px;
+    padding:10px  0px;
+    border:2px solid black;
+    border-radius:15px;
+}
+
